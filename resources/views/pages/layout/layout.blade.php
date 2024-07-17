@@ -7,6 +7,7 @@
     <meta name="description" content="Kleon Admin Template">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link href="{{ asset('admin/assets/img/').'/logo.png' }}" rel="shortcut icon" type="image/png">
     <link href="{{ asset('admin/assets/img/apple-touch-icon.html') }}" rel="apple-touch-icon">
     <link href="{{ asset('admin/assets/img/apple-touch-icon-72x72.html') }}" rel="apple-touch-icon" sizes="72x72">
